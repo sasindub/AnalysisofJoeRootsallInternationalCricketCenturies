@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     Joe-Root-All-International-Cricket-Centuries-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.InterquartileRange-Rfirst-last-O3.0-E6.0-weka.filters.unsupervised.attribute.StringToNominal-Rfirst-weka.filters.unsupervised.attribute.Discretize-B2-M-1.0-R3-precision6-weka.filters.unsupervised.attribute.Discretize-B4-M-1.0-R4-precision6-weka.filters.unsupervised.attribute.Remove-R9-10
+Instances:    46
+Attributes:   8
+              Score
+              Against
+              Position
+              Innings
+              Venue
+              Ground
+              Date
+              Result
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.1 (5 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 16
+
+Size of set of large itemsets L(2): 33
+
+Size of set of large itemsets L(3): 21
+
+Size of set of large itemsets L(4): 3
+
+Best rules found:
+
+ 1. Against= Sri Lanka 6 ==> Position=Middle-Order 6    <conf:(1)> lift:(1.59) lev:(0.05) [2] conv:(2.22)
+ 2. Venue=Lord's, London 6 ==> Ground=Home 6    <conf:(1)> lift:(1.77) lev:(0.06) [2] conv:(2.61)
+ 3. Venue=Trent Bridge, Nottingham 6 ==> Ground=Home 6    <conf:(1)> lift:(1.77) lev:(0.06) [2] conv:(2.61)
+ 4. Against= New Zealand Result=Won 5 ==> Ground=Home 5    <conf:(1)> lift:(1.77) lev:(0.05) [2] conv:(2.17)
+ 5. Against= New Zealand Ground=Home 5 ==> Result=Won 5    <conf:(1)> lift:(1.48) lev:(0.04) [1] conv:(1.63)
+ 6. Against= India Innings=2nd 5 ==> Ground=Home 5    <conf:(1)> lift:(1.77) lev:(0.05) [2] conv:(2.17)
+ 7. Innings=2nd Venue=Trent Bridge, Nottingham 5 ==> Ground=Home 5    <conf:(1)> lift:(1.77) lev:(0.05) [2] conv:(2.17)
+

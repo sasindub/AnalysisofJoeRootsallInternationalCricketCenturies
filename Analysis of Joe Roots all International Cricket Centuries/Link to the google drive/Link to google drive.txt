@@ -1,0 +1,8 @@
+* The size is greater than 5 therefore,
+  all the files have been uploaded to the google drive. 
+
+* Also there are some screenshots of the analysing processes 
+  that have been done with weka software.
+
+Google drive link:
+https://drive.google.com/drive/folders/1__anFnL1GhTUrJc_M2PROJcMIpG7pL7X?usp=sharing
